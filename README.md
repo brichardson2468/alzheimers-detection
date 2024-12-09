@@ -17,4 +17,4 @@ The knowledge gained from this project can be applied in medical diagnostics to 
 
 ## Links
 - [Video Demonstration](#) 
-- [Final Project Paper](01_EarlyAlzheimersDetection_Part4.ipynb)
+- [Final Project Paper](01_EarlyAlzheimersDetection_Part4.pdf)
