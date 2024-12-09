@@ -1,7 +1,7 @@
 # Project-specific data directories
 data/
 Data/
-
+models/
 # Large files and data
 *.zip
 *.h5  # Model files
@@ -9,7 +9,6 @@ Data/
 *.ckpt
 *.npy
 *.npz
-
 # Google Drive
 .tmp.drivedownload
 .tmp.driveupload
