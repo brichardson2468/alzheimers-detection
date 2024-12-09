@@ -1,20 +1,40 @@
-# Alzheimer's Detection
+# Early Alzheimer's Detection Using CNNs
+
+## Team Members
+- **Brad Richardson**  
+  Applied Computer Science, BS Post-Baccalaureate  
+  University of Colorado Boulder  
+  Email: brri6685@colorado.edu
 
 ## Description of the Project
-This project aims to develop a machine learning model to detect Alzheimer's disease from brain MRI scans. The dataset used contains images categorized into four classes: Non-Demented, Very Mild Dementia, Mild Dementia, and Moderate Dementia.
+This project investigates the application of deep learning for the early detection and staging of Alzheimer's disease using MRI brain images. Utilizing convolutional neural networks (CNNs) and the OASIS MRI dataset, the study aims to classify brain scans into four distinct categories:  
+1. **Non-demented**  
+2. **Very mild dementia**  
+3. **Mild dementia**  
+4. **Moderate dementia**
 
-## Summary of the Question(s) Sought and the Answers
-### Questions:
-1. Can we accurately classify the stages of Alzheimer's disease using MRI scans?
-2. What are the key features in MRI scans that help in distinguishing between different stages of Alzheimer's?
+The project leverages transfer learning with the VGG16 architecture to identify subtle structural changes in the brain that correlate with disease progression, offering a novel approach to automated staging of Alzheimer’s.
 
-### Answers:
-1. Yes, using a convolutional neural network (CNN) model, we achieved an accuracy of X% in classifying the stages of Alzheimer's disease.
-2. The key features include variations in brain structure and intensity distributions, which are captured by the CNN model.
+## Summary of the Questions Sought and the Answers
+### Research Questions:
+1. **Can CNNs effectively classify Alzheimer's disease progression stages based on MRI scans?**  
+   - **Answer:** The trained CNN achieved ~89% overall accuracy, demonstrating strong performance in distinguishing early stages like very mild dementia.  
 
-## Application of this Knowledge
-The knowledge gained from this project can be applied in medical diagnostics to assist radiologists in early detection and classification of Alzheimer's disease, potentially leading to better patient outcomes through timely intervention.
+2. **What are the challenges of multi-class classification in this context?**  
+   - **Answer:** Class imbalance (e.g., moderate dementia representing only 0.56% of the data) and subtle anatomical differences posed significant challenges. Applying class weighting and Grad-CAM visualizations helped address these issues.
 
-## Links
-- [Video Demonstration](#) 
-- [Final Project Paper](01_EarlyAlzheimersDetection_Part4.pdf)
+3. **Can visualizations provide clinical insights into the model’s predictions?**  
+   - **Answer:** Grad-CAM highlighted regions such as the hippocampus, emphasizing their importance in early detection.
+
+## Application of This Knowledge
+The findings have multiple practical applications:
+- **Clinical Decision Support:** Early detection tools for radiologists to identify subtle indicators of dementia.  
+- **Patient Monitoring:** Tracking disease progression over time for personalized care.  
+- **Clinical Trials:** Enhanced participant stratification based on disease stage.  
+- **Resource Allocation:** Efficient prioritization of specialized care for high-risk patients.
+
+## Link to the Video Demonstration
+[**Watch the project video demonstration here.**](#) *(Insert link once available)*
+
+## Link to the Final Project Paper
+[**Download the final project paper here.**](01_EarlyAlzheimersDetection_Part4.pdf)
