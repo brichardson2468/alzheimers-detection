@@ -34,7 +34,7 @@ The findings have multiple practical applications:
 - **Resource Allocation:** Efficient prioritization of specialized care for high-risk patients.
 
 ## Link to the Video Demonstration
-[**Watch the project video demonstration here.**](#) *(Insert link once available)*
+[**Watch the project video demonstration here.**](01_EarlyAlzheimersDetection_Part6_Video.mp4)
 
 ## Link to the Final Project Paper
 [**Download the final project paper here.**](01_EarlyAlzheimersDetection_Part4.pdf)
